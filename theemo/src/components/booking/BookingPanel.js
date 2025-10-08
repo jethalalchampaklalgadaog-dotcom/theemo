@@ -74,7 +74,8 @@ const BookingPanel = ({ setPickupLocation, setDropoffLocation, setRoute }) => {
                 <div className="panel-header"><h1>Booking Confirmed!</h1></div>
                 <div className="ticket-container" id="printable-ticket">
                     <div className="ticket-stamp">Booking Confirmed</div>
-                    <div className="ticket-header"><h2>Theemo</h2><p>Your Booking Confirmation</p></div>
+                    <div className="ticket-header"><h2> RentRide-Vehicle Rental System
+</h2><p>Your Booking Confirmation</p></div>
                     <div className="ticket-details">
                         <div className="ticket-car-image-container"><img src={selectedCar.imageUrl} alt={`${selectedCar.make} ${selectedCar.model}`} className="ticket-car-image"/></div>
                         <p><strong>Passenger:</strong> <span>{passengerName}</span></p>
@@ -94,7 +95,8 @@ const BookingPanel = ({ setPickupLocation, setDropoffLocation, setRoute }) => {
                         </div>
                     </div>
                     {/* --- CORRECTED: The footer is now displayed --- */}
-                    <div className="ticket-footer"><p>Thank You for choosing Theemo - The Car Rental Service</p></div>
+                    <div className="ticket-footer"><p>Thank You for choosing  RentRide-Vehicle Rental System
+ - The Car Rental Service</p></div>
                 </div>
                 <div className="confirmation-buttons">
                     <button className="btn btn-secondary" onClick={() => window.print()}>Print Ticket</button>
